@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+li a {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #9999FF;
+}
+.header_nav {
+  position: sticky;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  padding-left:20px;
+  font-size: 18px;
+}
+.header_click {
+  text-decoration:none;
+  font-weight: bold;
+  margin-right: 20px;
+  padding-left: 20px;
+  color: #9999FF;
+}
+.header_click:hover {
+  color: black;
+}
+.container{
+  display: flex;
+	justify-content: center;
+}
+.top-setumei {
+  padding-left: 0;
+}
+.top {
+  width:400px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 30px;
+}
+.top-h1,
+.login_h1 {
+  text-align: center;
+  color: white;
+  background-color: gray;
+}
+.login_input,
+.user_input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.login_click,
+.detail-click,
+.index-click,
+.user_click {
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  padding: 15px;
+  margin-top: 30px;
+}
+.detail-click,
+.index-click,
+.user_click {
+  padding: 10px 15px;
+}
+.login_click:hover,
+.detail-click:hover,
+.index-click:hover,
+.user_click:hover {
+  background-color: #9999FF;
+  color: #FFF;
+  cursor: pointer;
+}
+.itiran{
+  margin-top: 30px;
+}
+.itiran a,
+.mypage a {
+  text-decoration: none;
+}
+.itiran a:hover,
+.click:hover,
+.mypage a:hover {
+  font-weight: bold;
+}
+.itiran td,
+.mypage td {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.syosai,
+.mypage {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.click {
+  display: block;
+  text-decoration: none;
+  margin-top: 40px;
+}
+fieldset {
+  border: none;
+}
+legend {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.kousin,
+.touroku,
+.user {
+  text-align: center;
+  margin-top: 30px;
+}
+.kousin input,
+.kousin textarea,
+.touroku input,
+.touroku textarea {
+  font-size: 18px;
+}
+.kousin textarea,
+.touroku textarea {
+  margin-top: 10px;
+}
+.mypage table {
+  margin: auto;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.daimei {
+  margin-left: 40px;
+}
