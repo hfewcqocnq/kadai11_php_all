@@ -8,7 +8,7 @@
 
 ## ③DEMO
 
-- https://gsmito.sakura.ne.jp/kadai11_php_all/
+- https://gsmito.sakura.ne.jp/kadai11_php_all/top.php
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
